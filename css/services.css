@@ -103,6 +103,7 @@ main .container .info {
   align-items: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  gap: 1rem;
 }
 
 .service {
@@ -142,7 +143,8 @@ footer {
 
 footer ul {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -202,7 +204,7 @@ footer a i {
   .service {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
-    width: 40%;
+    width: 30%;
     margin-top: 1rem;
   }
 
